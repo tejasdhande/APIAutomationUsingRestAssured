@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.026" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Kanaka\selenium-workspace\APIFramework\target\test-classes;C:\Users\Kanaka\selenium-workspace\APIFramework\target\classes;C:\Users\Kanaka\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Kanaka\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Kanaka\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Kanaka\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Kanaka\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Kanaka\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Kanaka\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Kanaka\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Kanaka\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Kanaka\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Kanaka\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Kanaka\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Kanaka\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Kanaka\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Kanaka\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-java\7.23.0\cucumber-java-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-core\7.23.0\cucumber-core-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-gherkin\7.23.0\cucumber-gherkin-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.23.0\cucumber-gherkin-messages-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\datatable\7.23.0\datatable-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-plugin\7.23.0\cucumber-plugin-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\docstring\7.23.0\docstring-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Kanaka\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-testng\7.23.0\cucumber-testng-7.23.0.jar;C:\Users\Kanaka\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Kanaka\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Kanaka\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Kanaka\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Kanaka\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\Kanaka\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\Kanaka\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Kanaka\AppData\Local\Temp\surefire2098936548287524906\surefirebooter-20250821134543213_3.jar C:\Users\Kanaka\AppData\Local\Temp\surefire2098936548287524906 2025-08-21T13-45-42_883-jvmRun1 surefire-20250821134543213_1tmp surefire_0-20250821134543213_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Kanaka\selenium-workspace\APIFramework\target\test-classes;C:\Users\Kanaka\selenium-workspace\APIFramework\target\classes;C:\Users\Kanaka\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Kanaka\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Kanaka\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Kanaka\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Kanaka\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Kanaka\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Kanaka\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Kanaka\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Kanaka\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Kanaka\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Kanaka\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Kanaka\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Kanaka\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Kanaka\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Kanaka\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-java\7.23.0\cucumber-java-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-core\7.23.0\cucumber-core-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-gherkin\7.23.0\cucumber-gherkin-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.23.0\cucumber-gherkin-messages-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\datatable\7.23.0\datatable-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-plugin\7.23.0\cucumber-plugin-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\docstring\7.23.0\docstring-7.23.0.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Kanaka\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Kanaka\.m2\repository\io\cucumber\cucumber-testng\7.23.0\cucumber-testng-7.23.0.jar;C:\Users\Kanaka\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Kanaka\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Kanaka\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Kanaka\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Kanaka\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\Kanaka\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\Kanaka\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Kanaka"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Kanaka\selenium-workspace\APIFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kanaka\AppData\Local\Temp\surefire2098936548287524906\surefirebooter-20250821134543213_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="Kanaka"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Kanaka\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kanaka\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="cucumber.filter.tags" value="@AddPlace"/>
+    <property name="user.dir" value="C:\Users\Kanaka\selenium-workspace\APIFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-21\bin;C:\Users\Kanaka\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\bin;C:\Users\Kanaka\AppData\Roaming\Python\Python312\Scripts;%PyCharm Community Edition%;C:\Users\Kanaka\AppData\Roaming\npm;C:\Users\Kanaka\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify if place being successfully added using AddPlaceAPI&quot;, &quot;Validating Place APIs&quot;](1)" classname="cucumber.Options.TestRunner" time="5.879">
+    <system-out><![CDATA[
+@AddPlace
+Scenario Outline: Verify if place being successfully added using AddPlaceAPI # src/test/java/features/placeValidations.feature:15
+  Given Add Place Payload with "Tejas" "English" "West Kurla"                # stepDefinations.placeValidations.add_place_payload_with(java.lang.String,java.lang.String,java.lang.String)
+/maps/api/place/add/json
+  When User calls "AddPlaceAPI" with "Post" http request                     # stepDefinations.placeValidations.user_calls_with_http_request(java.lang.String,java.lang.String)
+  Then The API call is success with status code 200                          # stepDefinations.placeValidations.the_api_call_is_success_with_status_code(java.lang.Integer)
+  And "status" in response body is "OK"                                      # stepDefinations.placeValidations.in_response_body_is(java.lang.String,java.lang.String)
+  And "scope" in response body is "APP"                                      # stepDefinations.placeValidations.in_response_body_is(java.lang.String,java.lang.String)
+/maps/api/place/get/json
+  And Verify place_id created maps to "Tejas" using "GetPlaceAPI"            # stepDefinations.placeValidations.verify_place_id_created_maps_to_using(java.lang.String,java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

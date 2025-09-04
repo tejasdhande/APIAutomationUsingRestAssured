@@ -1,0 +1,87 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Tejas",
+    "phone_number": "+91 4541 5454 4555",
+    "address": "West Kurla",
+    "website": "www.kjclajda.com",
+    "language": "English",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "type": [
+        "Shoe Park",
+        "Compnay",
+        "food court",
+        "mall"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 21 Aug 2025 08:15:45 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "87ae6e794a41b1402b67b2b72ea2c145",
+    "scope": "APP",
+    "reference": "3942e6fa382778bd1941e7fa229503333942e6fa382778bd1941e7fa22950333",
+    "id": "3942e6fa382778bd1941e7fa22950333"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=87ae6e794a41b1402b67b2b72ea2c145
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=87ae6e794a41b1402b67b2b72ea2c145
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 21 Aug 2025 08:15:46 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 213
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Tejas",
+    "phone_number": "+91 4541 5454 4555",
+    "address": "West Kurla",
+    "types": "",
+    "website": "www.kjclajda.com",
+    "language": "English"
+}
