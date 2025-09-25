@@ -13,7 +13,7 @@ And Verify place_id created maps to "<name>" using "GetPlaceAPI"
 Examples:
 	|name|language|address|
 	|Tejas|English|West Kurla|
-	#|Kajal|Marathu|Pune|
+	#|Kajal|Marathi|Pune|
 
 @DeletePlace @Regression
 Scenario: Verify if DeletePlace functionality works

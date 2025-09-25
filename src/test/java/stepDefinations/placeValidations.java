@@ -80,5 +80,7 @@ public class placeValidations extends Utils {
 	   
 		rs = given().spec(requestSpecification()).body(data.deletePlacePayload(place_id));
 	}
+	
+
 
 }
