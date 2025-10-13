@@ -3,6 +3,7 @@ package resources;
 import java.util.ArrayList;
 import java.util.List;
 
+import pojo.AddBook;
 import pojo.AddPlace;
 import pojo.Location;
 
@@ -40,5 +41,15 @@ public class TestDataBuild {
 		return "{\r\n\"place_id\": \""+placeId+"\"\r\n}";
 
 	}
-
+	
+	public AddBook addBookPayload(String name,String isbn,String aisle,String author) {
+		
+		AddBook b = new AddBook();
+		b.setName(name);
+		b.setIsbn(isbn);
+		b.setAisle(aisle);
+		b.setAuthor(author);
+		return b;
+		
+	}
 }
