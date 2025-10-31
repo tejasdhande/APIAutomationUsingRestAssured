@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 13 13:56:14 IST 2025</td>
+<td>Started on:</td><td>Fri Oct 31 16:12:07 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7567 ms)</td>
+<tr><td>Total time:</td><td>11 seconds (11984 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,63 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cucumber.Options.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.Options.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Veify if existing place gets updated", "Update existing place"</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1461)
+	at stepDefinations.updatePlaceValidations.api_call_should_success_with(updatePlaceValidations.java:49)
+	at ✽.API call should success with 200(file:///C:/Users/Kanaka/selenium-workspace/APIFramework/src/test/java/features/updateplaceValidations.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1951403599", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1951403599'><pre>java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1461)
+	at stepDefinations.updatePlaceValidations.api_call_should_success_with(updatePlaceValidations.java:49)
+	at ✽.API call should success with 200(file:///C:/Users/Kanaka/selenium-workspace/APIFramework/src/test/java/features/updateplaceValidations.feature:8)
+</pre></div></td>
+<td>2</td>
+<td>cucumber.Options.TestRunner@7eac9008</td></tr>
+<tr>
+<td title='cucumber.Options.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.Options.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Veify if existing place gets updated", "Update existing place"</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1461)
+	at stepDefinations.updatePlaceValidations.api_call_should_success_with(updatePlaceValidations.java:49)
+	at ✽.API call should success with 200(file:///C:/Users/Kanaka/selenium-workspace/APIFramework/src/test/java/features/updateplaceValidations.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace501741720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace501741720'><pre>java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1461)
+	at stepDefinations.updatePlaceValidations.api_call_should_success_with(updatePlaceValidations.java:49)
+	at ✽.API call should success with 200(file:///C:/Users/Kanaka/selenium-workspace/APIFramework/src/test/java/features/updateplaceValidations.feature:8)
+</pre></div></td>
+<td>2</td>
+<td>cucumber.Options.TestRunner@7eac9008</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,19 +133,9 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='cucumber.Options.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.Options.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if book is being successfully added using AddBookAPI", "Validating Library APIs"</td>
-<td></td>
-<td>2</td>
-<td>cucumber.Options.TestRunner@7eac9008</td></tr>
-<tr>
-<td title='cucumber.Options.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.Options.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if place being successfully added using AddPlaceAPI", "Validating Place APIs"</td>
-<td></td>
-<td>2</td>
-<td>cucumber.Options.TestRunner@7eac9008</td></tr>
-<tr>
 <td title='cucumber.Options.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.Options.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if DeletePlace functionality works", "Validating Place APIs"</td>
 <td></td>
-<td>2</td>
+<td>6</td>
 <td>cucumber.Options.TestRunner@7eac9008</td></tr>
 </table><p>
 </body>

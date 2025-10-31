@@ -7,7 +7,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features = "src/test/java/features", 
 glue = {"stepDefinations"},
 plugin = {"pretty", "json:target/jsonReports/cucumber-report.json"},
-monochrome = true)
+monochrome = true,
+tags = "@UpdatePlace or @DeletePlace")
 
 
 //tags = "@DeletePlace"
