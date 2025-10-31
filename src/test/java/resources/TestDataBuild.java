@@ -6,6 +6,8 @@ import java.util.List;
 import pojo.AddBook;
 import pojo.AddPlace;
 import pojo.Location;
+import pojo.UpdatePlace;
+import stepDefinations.placeValidations;
 
 public class TestDataBuild {
 	
@@ -50,6 +52,19 @@ public class TestDataBuild {
 		b.setAisle(aisle);
 		b.setAuthor(author);
 		return b;
+		
+	}
+	
+	public UpdatePlace updateBookPayload(String address) {
+		
+		UpdatePlace ub = new UpdatePlace();
+		
+		ub.setKey("qaclick123");
+		ub.setPlace_id(placeValidations.place_id);
+		ub.setAddress(address);
+		
+		return ub;
+		
 		
 	}
 }

@@ -6,7 +6,7 @@ import io.cucumber.java.Before;
 
 public class Hooks {
 	
-	@Before("@DeletePlace")
+	@Before("@UpdatePlace or @DeletePlace")
 	public void beforeScenario() throws IOException {
 		
 		placeValidations pd = new placeValidations();
