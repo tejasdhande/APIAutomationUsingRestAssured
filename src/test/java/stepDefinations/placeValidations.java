@@ -22,7 +22,7 @@ public class placeValidations extends Utils {
 	RequestSpecification rs;
 	ResponseSpecification resspec;
 	Response response;
-	static String place_id;
+	public static String place_id;
 
 	TestDataBuild data = new TestDataBuild();
 

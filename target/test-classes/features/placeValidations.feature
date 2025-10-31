@@ -13,9 +13,9 @@ And Verify place_id created maps to "<name>" using "GetPlaceAPI"
 Examples:
 	|name|language|address|
 	|Tejas|English|West Kurla|
-	#|Kajal|Marathi|Pune|
+	|Kajal|Marathi|Pune|
 
-@DeletePlace @Regression
+@DeletePlace
 Scenario: Verify if DeletePlace functionality works
 Given Delete Place payload
 When User calls "DeletePlaceAPI" with "Post" http request
