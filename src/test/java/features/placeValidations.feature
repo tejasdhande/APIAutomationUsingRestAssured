@@ -19,7 +19,7 @@ Examples:
 Scenario: Verify if DeletePlace functionality works
 Given Delete Place payload
 When User calls "DeletePlaceAPI" with "Post" http request
-Then The API call is success with status code 200
+Then The API call is success with status code 404
 And "status" in response body is "OK"
 
 

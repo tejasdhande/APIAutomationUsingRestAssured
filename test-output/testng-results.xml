@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-31T16:12:07 IST" name="Default suite" finished-at="2025-10-31T16:12:19 IST" duration-ms="11984">
+  <suite started-at="2026-01-16T18:09:18 IST" name="Default suite" finished-at="2026-01-16T18:09:39 IST" duration-ms="20173">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@7eac9008]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-10-31T16:12:07 IST" name="Default test" finished-at="2025-10-31T16:12:19 IST" duration-ms="11984">
+    <test started-at="2026-01-16T18:09:18 IST" name="Default test" finished-at="2026-01-16T18:09:39 IST" duration-ms="20173">
       <class name="cucumber.Options.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.Options.TestRunner@7eac9008]" started-at="2025-10-31T16:12:07 IST" name="setUpClass" finished-at="2025-10-31T16:12:07 IST" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.Options.TestRunner@7eac9008]" started-at="2026-01-16T18:09:18 IST" name="setUpClass" finished-at="2026-01-16T18:09:19 IST" duration-ms="396" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc1c7e]]>
+                <![CDATA[org.testng.TestRunner@1c171746]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@7eac9008]" started-at="2025-10-31T16:12:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-31T16:12:14 IST" duration-ms="6662" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@7eac9008]" started-at="2026-01-16T18:09:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-16T18:09:27 IST" duration-ms="8336" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -34,10 +34,28 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at org.testng.Assert.assertEquals(Assert.java:1441)
+at stepDefinations.placeValidations.the_api_call_is_success_with_status_code(placeValidations.java:55)
+at ✽.The API call is success with status code 200(file:///C:/Users/Kanaka/selenium-workspace/APIFramework/src/test/java/features/placeValidations.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@7eac9008]" started-at="2025-10-31T16:12:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-31T16:12:16 IST" duration-ms="2480" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@7eac9008]" started-at="2026-01-16T18:09:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-16T18:09:34 IST" duration-ms="7013" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,27 +68,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [200] but found [404]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1431)
-at org.testng.Assert.assertEquals(Assert.java:1461)
-at stepDefinations.updatePlaceValidations.api_call_should_success_with(updatePlaceValidations.java:49)
-at ✽.API call should success with 200(file:///C:/Users/Kanaka/selenium-workspace/APIFramework/src/test/java/features/updateplaceValidations.feature:8)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@7eac9008]" started-at="2025-10-31T16:12:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-31T16:12:19 IST" duration-ms="2387" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@7eac9008]" started-at="2026-01-16T18:09:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-16T18:09:38 IST" duration-ms="4170" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,27 +84,10 @@ at ✽.API call should success with 200(file:///C:/Users/Kanaka/selenium-workspa
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [200] but found [404]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1431)
-at org.testng.Assert.assertEquals(Assert.java:1461)
-at stepDefinations.updatePlaceValidations.api_call_should_success_with(updatePlaceValidations.java:49)
-at ✽.API call should success with 200(file:///C:/Users/Kanaka/selenium-workspace/APIFramework/src/test/java/features/updateplaceValidations.feature:8)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.Options.TestRunner@7eac9008]" started-at="2025-10-31T16:12:19 IST" name="tearDownClass" finished-at="2025-10-31T16:12:19 IST" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.Options.TestRunner@7eac9008]" started-at="2026-01-16T18:09:38 IST" name="tearDownClass" finished-at="2026-01-16T18:09:39 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
